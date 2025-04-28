@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Chúc Mừng Sinh Nhật Hà 🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <!-- Đây là dòng thông báo -->
+  <div id="beforeBirthday" class="message">
+    Having some issues with the system
+  </div>
+
+  <!-- Countdown + Card, Ẩn mặc định -->
+  <div id="mainContent" class="hidden">
+    <h1>🎉 Sinh Nhật Khánh Hà 🎉</h1>
+    <div class="countdown" id="countdown"></div>
+    <div id="cardSection" class="hidden">
+      <div class="card" onclick="openCard()">
+        <p>🎁 Mở Quà 🎁</p>
+      </div>
+      <div id="wishes" class="hidden"></div>
+    </div>
+  </div>
+
+</div>
+
+<canvas id="fireworks"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
